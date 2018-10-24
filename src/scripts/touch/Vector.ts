@@ -66,7 +66,7 @@ export default class Vector {
     }
 
     static dot(a: Vector, b: Vector) {
-        return a.x * b.x + a.y + b.y;
+        return a.x * b.x + a.y * b.y;
     }
 
     static cross(a: Vector, b: Vector) {
